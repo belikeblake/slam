@@ -37,12 +37,12 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = "https://lasirena69ftw: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@github.com/lasirena69ftw/Slam-PVT"
+    UPSTREAM_REPO = "https://github.com/belikeblake/slam"
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'edit'
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
